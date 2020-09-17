@@ -1,4 +1,4 @@
-package com.w2o.batchpoc;
+package com.example.batchpoc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.w2o.batchpoc.domain;
+package com.example.batchpoc.domain;
 
 import java.util.HashSet;
 import java.util.Set;

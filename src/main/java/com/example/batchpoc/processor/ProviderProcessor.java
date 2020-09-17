@@ -1,6 +1,6 @@
-package com.w2o.batchpoc.processor;
+package com.example.batchpoc.processor;
 
-import com.w2o.batchpoc.domain.Provider;
+import com.example.batchpoc.domain.Provider;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Service;
 

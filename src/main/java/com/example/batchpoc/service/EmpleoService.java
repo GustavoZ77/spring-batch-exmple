@@ -1,9 +1,9 @@
-package com.w2o.batchpoc.service;
+package com.example.batchpoc.service;
 
 import java.util.List;
 
-import com.w2o.batchpoc.domain.Empleo;
-import com.w2o.batchpoc.repository.EmpleoRepository;
+import com.example.batchpoc.domain.Empleo;
+import com.example.batchpoc.repository.EmpleoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

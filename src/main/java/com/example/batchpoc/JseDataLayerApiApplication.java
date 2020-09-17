@@ -1,4 +1,4 @@
-package com.w2o.batchpoc;
+package com.example.batchpoc;
 
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.boot.SpringApplication;

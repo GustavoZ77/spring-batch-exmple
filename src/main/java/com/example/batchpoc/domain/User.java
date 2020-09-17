@@ -1,4 +1,4 @@
-package com.w2o.batchpoc.domain;
+package com.example.batchpoc.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

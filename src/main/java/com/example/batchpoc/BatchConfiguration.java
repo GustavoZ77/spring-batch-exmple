@@ -1,7 +1,7 @@
-package com.w2o.batchpoc;
+package com.example.batchpoc;
 
-import com.w2o.batchpoc.domain.Provider;
-import com.w2o.batchpoc.processor.ProviderProcessor;
+import com.example.batchpoc.domain.Provider;
+import com.example.batchpoc.processor.ProviderProcessor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;

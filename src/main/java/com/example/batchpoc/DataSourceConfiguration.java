@@ -1,4 +1,4 @@
-package com.w2o.batchpoc;
+package com.example.batchpoc;
 
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;

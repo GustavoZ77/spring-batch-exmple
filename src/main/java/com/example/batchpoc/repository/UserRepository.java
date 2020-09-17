@@ -1,6 +1,6 @@
-package com.w2o.batchpoc.repository;
+package com.example.batchpoc.repository;
 
-import com.w2o.batchpoc.domain.User;
+import com.example.batchpoc.domain.User;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 

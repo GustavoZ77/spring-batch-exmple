@@ -1,13 +1,13 @@
-package com.w2o.batchpoc.service;
+package com.example.batchpoc.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.w2o.batchpoc.repository.SkillRepository;
+import com.example.batchpoc.repository.SkillRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.w2o.batchpoc.domain.Skill;
+import com.example.batchpoc.domain.Skill;
 
 @Service
 public class SkillService {

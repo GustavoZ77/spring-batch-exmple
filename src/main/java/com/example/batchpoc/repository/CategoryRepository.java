@@ -1,6 +1,6 @@
-package com.w2o.batchpoc.repository;
+package com.example.batchpoc.repository;
 
-import com.w2o.batchpoc.domain.Category;
+import com.example.batchpoc.domain.Category;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
