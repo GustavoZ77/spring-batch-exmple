@@ -1,4 +1,4 @@
-package com.amdocs.jceapi.domain;
+package com.w2o.batchpoc.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

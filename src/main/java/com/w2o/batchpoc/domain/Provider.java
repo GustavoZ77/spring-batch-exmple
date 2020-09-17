@@ -1,4 +1,4 @@
-package com.amdocs.jceapi.domain;
+package com.w2o.batchpoc.domain;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,10 +11,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Table(name="provider")
 public class Provider {
 
+
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")
-	private Long providerId;
+	private Long id;
 	
 	@Column(name="firstname",columnDefinition = "char(200)")
 	private String firstName;
@@ -36,12 +37,12 @@ public class Provider {
 		super();
 	}
 
-	public Long getProviderId() {
-		return providerId;
+	public Long getId() {
+		return id;
 	}
 
-	public void setProviderId(Long id) {
-		this.providerId = id;
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	public String getFirstName() {

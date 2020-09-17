@@ -1,12 +1,11 @@
-package com.amdocs.jceapi.service;
+package com.w2o.batchpoc.service;
 
 import java.util.List;
 
+import com.w2o.batchpoc.domain.Empleo;
+import com.w2o.batchpoc.repository.EmpleoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.amdocs.jceapi.domain.Empleo;
-import com.amdocs.jceapi.repository.EmpleoRepository;
 
 @Service
 public class EmpleoService {
